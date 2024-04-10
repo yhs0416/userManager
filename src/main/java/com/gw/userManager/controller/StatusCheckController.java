@@ -1,4 +1,4 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3.controller;
+package com.gw.userManager.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

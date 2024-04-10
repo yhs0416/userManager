@@ -1,4 +1,4 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3.domain.user;
+package com.gw.userManager.domain.user;
 
 import jakarta.persistence.*;
 import org.springframework.security.crypto.password.PasswordEncoder;

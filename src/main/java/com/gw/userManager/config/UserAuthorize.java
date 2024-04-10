@@ -1,4 +1,4 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3.config;
+package com.gw.userManager.config;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 

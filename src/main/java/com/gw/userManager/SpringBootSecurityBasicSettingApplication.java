@@ -1,4 +1,4 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3;
+package com.gw.userManager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

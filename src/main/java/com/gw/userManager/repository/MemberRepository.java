@@ -1,6 +1,6 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3.repository;
+package com.gw.userManager.repository;
 
-import com.nahwasa.springsecuritybasicsettingforspringboot3.domain.user.Member;
+import com.gw.userManager.domain.user.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

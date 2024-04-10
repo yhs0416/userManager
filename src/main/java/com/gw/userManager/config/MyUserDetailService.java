@@ -1,7 +1,7 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3.config;
+package com.gw.userManager.config;
 
-import com.nahwasa.springsecuritybasicsettingforspringboot3.domain.user.Member;
-import com.nahwasa.springsecuritybasicsettingforspringboot3.service.MemberService;
+import com.gw.userManager.domain.user.Member;
+import com.gw.userManager.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;

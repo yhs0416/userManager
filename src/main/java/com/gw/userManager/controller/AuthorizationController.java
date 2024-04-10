@@ -1,7 +1,7 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3.controller;
+package com.gw.userManager.controller;
 
-import com.nahwasa.springsecuritybasicsettingforspringboot3.dto.MemberJoinDto;
-import com.nahwasa.springsecuritybasicsettingforspringboot3.service.RegisterMemberService;
+import com.gw.userManager.dto.MemberJoinDto;
+import com.gw.userManager.service.RegisterMemberService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

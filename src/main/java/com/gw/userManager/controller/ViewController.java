@@ -1,7 +1,9 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3.controller;
+package com.gw.userManager.controller;
 
-import com.nahwasa.springsecuritybasicsettingforspringboot3.config.AdminAuthorize;
-import com.nahwasa.springsecuritybasicsettingforspringboot3.config.UserAuthorize;
+import com.gw.userManager.config.AdminAuthorize;
+import com.gw.userManager.config.UserAuthorize;
+import com.gw.userManager.dao.MemberDAO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Controller;
@@ -9,9 +11,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.Map;
+
 @Controller
 @RequestMapping("/view")
 public class ViewController {
+
+    @Autowired
+    private MemberDAO memberDAO;
 
     @GetMapping("/login")
     public String loginPage() {
@@ -21,6 +28,10 @@ public class ViewController {
     @GetMapping("/join")
     public String joinPage() {
         return "join";
+    }
+    @GetMapping("/sideBar")
+    public String sideBar() {
+        return "sideBar";
     }
 
     @GetMapping("/dashboard")

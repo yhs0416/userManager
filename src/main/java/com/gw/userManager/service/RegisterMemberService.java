@@ -1,7 +1,7 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3.service;
+package com.gw.userManager.service;
 
-import com.nahwasa.springsecuritybasicsettingforspringboot3.domain.user.Member;
-import com.nahwasa.springsecuritybasicsettingforspringboot3.repository.MemberRepository;
+import com.gw.userManager.domain.user.Member;
+import com.gw.userManager.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3;
+package com.gw.userManager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

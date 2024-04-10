@@ -1,4 +1,4 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3.dto;
+package com.gw.userManager.dto;
 
 public class MemberJoinDto {
 

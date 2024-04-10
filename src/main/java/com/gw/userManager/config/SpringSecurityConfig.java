@@ -1,4 +1,4 @@
-package com.nahwasa.springsecuritybasicsettingforspringboot3.config;
+package com.gw.userManager.config;
 
 import jakarta.servlet.DispatcherType;
 import org.springframework.context.annotation.Bean;
